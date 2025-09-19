@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simmi Kumari | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Add favicon -->
+  <link rel="icon" type="image/png" href="assests/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav aria-label="Main Navigation">
+      <h1 class="logo">Simmi Kumari</h1>
+      <ul class="nav-links">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#youtube">YouTube</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="mobile-menu-toggle" aria-label="Toggle Menu">☰</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+    <div class="container">
+        <div class="image-container">
+        <img src="assests/bio_image.jpeg" alt="Simmi Kumari">
+        </div>
+        <div class="about">
+        <h1>Hi, I'm Simmi</h1>
+        <p>I'm an aspiring AI/ML Enginer, passionate about technology. I specialize in building AI agents.</p>
+        <p>Welcome to my personal website where I share my journey, projects, and insights.</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Project  -->
+    <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+        <h3>AI-Powered Mental Health Assistant</h3>
+        <p>Developed an assistant using large language models (LLMs) to detect and evaluate depression symptoms from clinical interview transcripts, achieving ~78% prediction accuracy.</p>
+        <p><strong>Tech:</strong> Python, LLM APIs (Gemma 3), Prompt Engineering</p>
+        <a href="https://github.com/yourusername/mental-health-ai" target="_blank">View Project →</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+        <h3>AI-Powered To-Do List</h3>
+        <p>AI-powered To-Do List that can prioritize tasks, suggest schedules, and learn your productivity patterns. Helps you organize tasks efficiently.</p>
+        <p><strong>Tech:</strong> JavaScript, Python (AI/ML), HTML/CSS</p>
+        <p><strong>Status:</strong> Coming Soon 🚀</p>
+        <a href="#" target="_blank">View Project →</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+        <h3>AI Chatbot Web App</h3>
+        <p>A simple AI chatbot interface for your website that can answer questions or provide guidance using predefined responses or free AI APIs.</p>
+        <p><strong>Tech:</strong> JavaScript, HTML, CSS, optional AI API</p>
+        <a href="#" target="_blank">View Project →</a>
+        </div>
+
+    </div>
+    </section>
+
+
+    <!-- Resume -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>You can <a href="assets/resume.pdf" target="_blank">download my resume here</a>.</p>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li><a href="assets/cs50p.pdf" target="_self">Harvard CS50P – Introduction to Computer Science</a></li>
+        <li><a href="assets/cs50x.pdf" target="_self">Harvard CS50x – Introduction to Programming with Python</a></li>
+        <li><a href="assets/cs50ai.pdf" target="_self">Harvard CS50 – Introduction to AI with Python</a></li>
+        <li><a href="assests/codepath.pdf" target="_self">CodePath – Advanced Data Structures & Algorithms</a></li>
+      </ul>
+      
+    </section>
+
+
+    <!-- YouTube Section -->
+    <section id="youtube">
+    <h2>My OpenDiary : YouTube</h2>
+    <p>
+        Welcome to my YouTube channel! I'm Simmi Kumari, sharing AI, coding tutorials, and creative projects.
+    </p>
+
+    <div id="youtube-video-grid" class="youtube-video-grid">
+        <!-- Video cards will be dynamically inserted here -->
+    </div>
+
+    <p>
+        <a href="https://www.youtube.com/@simmikumari12" target="_blank" rel="noopener noreferrer" class="youtube-btn">Visit My Channel →</a>
+    </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out through the following:</p>
+      <div class="contact-links">
+        <a href="mailto:youremail@example.com">Email</a>
+        <a href="https://www.linkedin.com/in/simmi-kumari12/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/simmikumari12" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+      <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Simmi Kumari. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
